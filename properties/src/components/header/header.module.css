@@ -1,0 +1,38 @@
+.headerWrapper {
+  background: #fc3165;
+  padding: 16px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navTab {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.navTab:hover {
+  color: #fc3165;
+  background: #fff;
+  border-radius: 20px;
+  scale: 1.2;
+  transition: all 0.3ms ease-in-out;
+}
+.inputwrap{
+  border-radius: 8px;
+  padding: 4px;
+  margin-left:16px;
+}
