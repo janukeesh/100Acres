@@ -1,9 +1,9 @@
 import { Search } from "@mui/icons-material";
-import "./App.css";
+import "./App.scss";
 import Header from "./components/header/Header";
 import SearchBar from "./components/searchbar/SearchBar";
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import PageList from './pageList';
 
 function App() {

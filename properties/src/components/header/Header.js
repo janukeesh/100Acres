@@ -1,26 +1,26 @@
 import React from "react";
-import styles from "./header.module.css";
+import "./header.scss";
 
 const Header = () => {
   return (
-    <div className={styles.headerWrapper}>
-      <div className={styles.header}>
+    <div className="headerWrapper">
+      <div className="header">
 
-        <a className={styles.title} href="/">
+        <a className="title" href="/">
           100Acres
         </a>
       
-          <input type="text" placeholder="Search your dream property" className={styles.inputwrap} >
+          <input type="text" placeholder="Search your dream property" className="inputwrap" >
           </input>
       
         <div display="flex" gap={8}>
-          <a href="#" className={styles.navTab}>
+          <a href="#" className="navTab">
             For Buyers
           </a>
-          <a href="#" className={styles.navTab}>
+          <a href="#" className="navTab">
             For Tenants
           </a>
-          <a href="#" className={styles.navTab}>
+          <a href="#" className="navTab">
             For Owners
           </a>
         </div>
