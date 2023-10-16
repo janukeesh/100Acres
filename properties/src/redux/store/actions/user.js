@@ -5,7 +5,7 @@ import axios from 'axios';
 const slice = createSlice({
   name: 'user',
   initialState: {
-    user: null,
+    user: [],
   },
   reducers: {
     getList: (state, action) => {
@@ -21,8 +21,10 @@ const { getList } = slice.actions
 
 export const pageList = () => async dispatch => {
   try {
-    const res = await axios.get('http://dummy.restapiexample.com/api/v1/employees');
-    return dispatch(getList())
+    const res = await axios.get('https://dummy.restapiexample.com/api/v1/employees');
+    console.log(res.data.data);
+    let dataUser = res.data.data;
+    return dispatch(getList(dataUser));
   } catch (e) {
     return console.error(e.message);
   }

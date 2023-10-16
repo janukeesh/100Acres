@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <SearchBar/>
-     <PageList/>
+      <SearchBar />
+      <PageList />
     </div>
   );
 }
