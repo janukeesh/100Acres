@@ -1,0 +1,101 @@
+.tagWrap {
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    border-radius: 4px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 8px;
+    display: inline-flex !important;
+    align-items: center;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: RGB(25 25 25 / 80%);
+    display: inline-flex !important;
+}
+
+.tagLeftIcon {
+    height: 12px;
+    width: 12px;
+}
+
+.tagText {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 4px;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.verifiedTag {
+    background: rgba(40, 173, 53, 1);
+}
+
+.verifiedText {
+    color: rgba(255, 255, 255, 1);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.featuredText {
+    color: rgba(253, 204, 255, 1);
+}
+
+.fomoWrap {
+    // background: RGB(25 25 25 / 80%);
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.star {
+    margin-left: 12px;
+    margin-right: 4px;
+
+}
+
+.tag {
+    margin-right: 4px;
+}
+
+.shortlistBtnWrap {
+    margin: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.shortlistImage {
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s ease-in-out;
+}
+
+.shortlistImage:active {
+    transform: scale(1.25,1.25)
+}
+
+.m12 {
+    margin-left: 12px;
+}
+
+.colorN200 {
+    color: #F4F5F7
+}
